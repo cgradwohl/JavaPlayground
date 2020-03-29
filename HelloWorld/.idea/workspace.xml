@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="273e3335-b89b-42c3-a7a1-9d48d4069d15" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1ZowmY0Z29Fr45L0v0EyFotneiI" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.helloworld.Main" />
+      <module name="HelloWorld" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="273e3335-b89b-42c3-a7a1-9d48d4069d15" name="Default Changelist" comment="" />
+      <created>1585518914023</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585518914023</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom" timestamp="1585521797829">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom/0.-1440.2560.1440/-1080.-1678.1080.1920/0.0.1680.1050@0.0.1680.1050" timestamp="1585521797829" />
+    <state width="1638" height="295" key="GridCell.Tab.0.center" timestamp="1585521797828">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="295" key="GridCell.Tab.0.center/0.-1440.2560.1440/-1080.-1678.1080.1920/0.0.1680.1050@0.0.1680.1050" timestamp="1585521797828" />
+    <state width="1638" height="295" key="GridCell.Tab.0.left" timestamp="1585521797827">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="295" key="GridCell.Tab.0.left/0.-1440.2560.1440/-1080.-1678.1080.1920/0.0.1680.1050@0.0.1680.1050" timestamp="1585521797827" />
+    <state width="1638" height="295" key="GridCell.Tab.0.right" timestamp="1585521797828">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="295" key="GridCell.Tab.0.right/0.-1440.2560.1440/-1080.-1678.1080.1920/0.0.1680.1050@0.0.1680.1050" timestamp="1585521797828" />
+    <state x="517" y="369" key="com.intellij.ide.util.TipDialog" timestamp="1585518922271">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="517" y="369" key="com.intellij.ide.util.TipDialog/0.-1417.2560.1417/-1080.-1655.1080.1897/0.23.1680.1027@0.23.1680.1027" timestamp="1585518922271" />
+    <state x="505" y="233" key="search.everywhere.popup" timestamp="1585519118737">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="505" y="233" key="search.everywhere.popup/0.-1440.2560.1440/-1080.-1678.1080.1920/0.0.1680.1050@0.0.1680.1050" timestamp="1585519118737" />
+  </component>
+</project>
