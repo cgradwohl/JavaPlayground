@@ -18,6 +18,15 @@ public class Main {
         // char     2 bytes
         // boolean  1 byte
 
+        // Primitive types allocate memory for the value directly.
+        // -------------------------------------------------------
+        // immutable, cannot be changed by another pointer.
+        // byte x = 1;
+        // byte y = x;
+        // x = 2;
+        // variable y is not referencing x, since x and y are primitive types.
+        // System.out.println(y);
+
         byte age = 30;
         int viewsCount = 123_456_978;
         long anotherViewsType = 1_000_000_000L;
@@ -33,11 +42,6 @@ public class Main {
         now.getTime();
         System.out.println(now);
 
-//        byte x = 1;
-//        byte y = x;
-//        x = 2;
-        // variable y is not referencing x, since x and y are primitive types.
-//        System.out.println(y);
 
         // First, we you declare new Point() object, a new object is created at a memory address.
         // Second 'point1' points to the address of the new Point() object.
