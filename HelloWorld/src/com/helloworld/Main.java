@@ -2,6 +2,7 @@
 package com.helloworld;
 
 import java.awt.*;
+import java.util.Arrays;
 import java.util.Date;
 
 public class Main {
@@ -59,5 +60,82 @@ public class Main {
         System.out.println(add1);
         int add2 = System.identityHashCode(point2);
         System.out.println(add2);
+
+
+        // ---------------------------------------------------------------
+        // ------------------           Strings                 ---------------
+        // ---------------------------------------------------------------
+        //         String message = new String("Hello World");
+        String message = "hello world" + "!!";
+        System.out.println(message.endsWith("!!"));
+        System.out.println(message.startsWith("!!"));
+        System.out.println(message.length());
+        System.out.println(message.indexOf("e")); // 1
+        System.out.println(message.indexOf('l')); // 2
+        // note target and replacement are paramters to the method
+        // note that "!" and "*" are the arguments :)
+        System.out.println(message.replace("!", "*"));
+        System.out.println(message); // strings are immutable
+
+        System.out.println(message.trim());
+        System.out.println(message.toUpperCase());
+
+
+        // escape characters
+        String name = "Chris \"Gradwohl\"";
+        System.out.println(name);
+
+        String path = "c:\\windows\\...";
+        System.out.println(path);
+
+        // \t tab and \n new line chars
+        System.out.println("\t" + name + "\n" );
+
+
+
+
+
+        // ---------------------------------------------------------------
+        // ------------------           Array                 ---------------
+        // ---------------------------------------------------------------
+
+        // create the array
+        int [] numbers = new int[4]; // declares and array of size 4 :)
+
+        // initialize the array
+        numbers[0] = 300;
+        numbers[1] = 400;
+        numbers[2] = 500;
+        numbers[3] = 600;
+        // numbers[5] = 1000; // throws exception java.lang.ArrayIndexOutOfBoundsException
+
+        System.out.println(numbers); // prints mem address
+        System.out.println(Arrays.toString(numbers));
+        // note: the method Arrays.toString is 'overloaded' because it is implemented with different _parameters_ types
+
+
+        // create and initialize arrays in one step
+        // arrays hhave fixed length
+        int[] numbers2 = { 300, 200, 300, 400, 500  };
+        System.out.println(numbers2.length);
+        Arrays.sort(numbers2);
+        System.out.println(Arrays.toString(numbers2));
+
+
+
+        // Multi Dimensional Arrays
+        // create a 2D matrix size 2 X 3
+        int[][] matrix = new int[2][3];
+
+        // initial 2D matrix
+        matrix[0][0] = 400;
+        matrix[1][2] = 777;
+
+        System.out.println(Arrays.deepToString(matrix));
+
+
+        // create and initial 2D matrix of size 2X3
+        int[][] matrix2 = {{400, 0, 0}, {0, 0, 777}};
+        System.out.println(Arrays.deepToString(matrix2));
     }
 }
