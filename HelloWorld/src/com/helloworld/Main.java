@@ -137,5 +137,118 @@ public class Main {
         // create and initial 2D matrix of size 2X3
         int[][] matrix2 = {{400, 0, 0}, {0, 0, 777}};
         System.out.println(Arrays.deepToString(matrix2));
+
+
+        // ---------------------------------------------------------------
+        // ------------------           Constants                 ---------------
+        // ---------------------------------------------------------------
+        float pi = 3.14F;
+        pi = 1; // float is mutable!
+
+        final float PI = 3.14F; // final makes it immutable
+        //        PI = 1;  <-- cannot reassign final variables
+        System.out.println(PI);
+
+
+
+        // ---------------------------------------------------------------
+        // ------------------           Arithmatic Expressions      ---------------
+        // ---------------------------------------------------------------
+
+        // we need to cast 10 and 3 as doubles and therefore result must also be of type double
+        double result = (double)10 / (double)3;
+        System.out.println(result);
+
+        int val1 = 1;
+        int val2 = val1++; // increments AFTER the assignment expression
+
+        int anotherval = ++val1; // increments BEFORE the assignment expression
+
+        System.out.println(val1);
+        System.out.println(val2);
+        System.out.println(anotherval);
+
+
+        // augmented assignment operators
+        int a = 4;
+        //        a = a + 2;  Same as below
+        a += 2;
+        System.out.println(a); // 6
+
+
+
+        // ---------------------------------------------------------------
+        // ------------------    Order of Operations      ---------------
+        // ---------------------------------------------------------------
+        int b = 10 + 3 * 2;
+        System.out.println(b); // what will it print?
+
+
+        // ---------------------------------------------------------------
+        // ------------------        Casting               ---------------
+        // ---------------------------------------------------------------
+        short n = 1;
+        int m = n + 2;
+        System.out.println("CAST ING");
+        System.out.println(m);
+        /**
+         * because we are adding aa short type and an int type what happens under the hood ?
+         *
+         * short n = 1;
+         * int m = n + 2;
+         *
+         *
+         * Implicit Casting
+         * Java Compiler will implicitly cast whenever there is no chance of data loss.
+         * 1. java compiler looks at the value of n, 1
+         * 2. allocates an anonymous memory address of type int and then
+         *      copy the value of n at that memory address
+         * 3. then jc will add 2 to that anonymous memory address
+         * short is 2 bytes, and an int is 4 bytes so any short can fit in an int,
+         * therefore we can implicitly cast a short to an int
+         *
+         * compatible types
+         * byte > short > int > long > float > double
+         *
+         * // implicit casting for this will work because an int cannot fit into a short.
+         * int c = 3;
+         * short d = c + 2;
+         */
+
+        // here we want too explicitly cast to a type
+        double c = 1.1;
+
+        // we explicitly cast the variable c to an int
+        // then we will add 2
+        int d = (int) c + 2;
+
+        String e = "10";
+        int f = Integer.parseInt(e) + 2;
+        System.out.println(f);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     }
 }
