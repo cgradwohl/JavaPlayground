@@ -2,6 +2,7 @@
 package com.helloworld;
 
 import java.awt.*;
+import java.text.NumberFormat;
 import java.util.Arrays;
 import java.util.Date;
 
@@ -226,13 +227,68 @@ public class Main {
         int f = Integer.parseInt(e) + 2;
         System.out.println(f);
 
+        /**
+         * types recap
+         * -----------
+         * byte, 1
+         * short, 2
+         * int, 4
+         * double, 8
+         * long, 8
+         * float, 4
+         * char, 2
+         * boolean, 1
+         */
 
 
+        // Math Class
+        // -------------------------
+        int rounded = Math.round(1.1F);
+        System.out.println(rounded);
+
+        int ceil = (int) Math.ceil(1.7);
+        int floor = (int) Math.floor(1.7);
+        System.out.println(ceil);
+        System.out.println(floor);
+        int min = Math.min(2, 4);
+        int max = Math.max(2, 4);
+        System.out.println(min);
+        System.out.println(max);
+
+        // double with lots of decimals
+        double rand = Math.random() * 100;
+        System.out.println(rand);
+
+        // rounding the double to  whole number but we still have fraction
+        double rando = Math.round(Math.random() * 100);
+        System.out.println(rando);
+
+        int randomWholeNumber = (int) Math.round(Math.random() * 100); // Math.round() returns long so explicit cast
+        System.out.println(randomWholeNumber);
+
+        int alwaysZero = (int) Math.random() * 100;
+        System.out.println(alwaysZero);
+
+        int anotherRandomWholeNumber = (int) (Math.random() * 100);
+        System.out.println(anotherRandomWholeNumber);
 
 
+        // FORMATTING NUMBERS
+        // 1234567 => $1,234,567
+        // 0.10 => 10%
+//            NumberFormat currency = new NumberFormat();   NOTE: abstract classes vs regular classes
+        NumberFormat sscacs = NumberFormat.getCurrencyInstance(); // Factory Method :)
+
+        String resss = sscacs.format(123456.891);
+        System.out.println(resss);
 
 
+        NumberFormat percent = NumberFormat.getPercentInstance();
+        String rea = percent.format(.1034);
+        System.out.println(rea);
 
+        String r = NumberFormat.getPercentInstance().format(.7529);
+        System.out.println(r);
 
 
 
