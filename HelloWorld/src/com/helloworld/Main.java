@@ -361,23 +361,49 @@ public class Main {
 //                System.out.println("GUEST ROLE");
 //        }
 
-        System.out.print("ENTER FIZZBUZZ NUMBER: ");
-        int number = scanner.nextInt();
-        boolean divisibleByFive = number % 5 == 0;
-        boolean divisibleByThree = number % 3 == 0;
-
-
-        if (divisibleByFive && divisibleByThree) {
-            System.out.println("FizzBuzz");
-        } else if (divisibleByThree) {
-            System.out.println("Buzz");
-        } else if (divisibleByFive) {
-            System.out.println("Fizz");
-        } else {
-            System.out.println(number);
+//        System.out.print("ENTER FIZZBUZZ NUMBER: ");
+//        int number = scanner.nextInt();
+//        boolean divisibleByFive = number % 5 == 0;
+//        boolean divisibleByThree = number % 3 == 0;
+//
+//
+//        if (divisibleByFive && divisibleByThree) {
+//            System.out.println("FizzBuzz");
+//        } else if (divisibleByThree) {
+//            System.out.println("Buzz");
+//        } else if (divisibleByFive) {
+//            System.out.println("Fizz");
+//        } else {
+//            System.out.println(number);
+//        }
+        for (int i = 5; i >= 1; i--) {
+            System.out.println("WEEEEEEEEEEEEEE!" + i);
         }
 
+        int i = 1;
+        while (i <= 5) {
+            System.out.println("WWOOOOOOOOWWWWWW" + i);
+            i++;
+        }
 
+        String input = "";
+        while (!input.equals("quit")) {
+            System.out.print("Enter Commands: ");
+            input = scanner.next().toLowerCase();
+            if (input.equals("pass")) {
+                continue;
+            }
+            if (input.equals("quit")) {
+                break;
+            }
+            System.out.println(input);
+        }
+
+        do {
+            System.out.print("Enter Commands For Second Loop: ");
+            input = scanner.next().toLowerCase();
+            System.out.println(input);
+        } while (!input.equals("quit"));
 
 
 
