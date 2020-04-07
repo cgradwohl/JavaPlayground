@@ -376,43 +376,58 @@ public class Main {
 //        } else {
 //            System.out.println(number);
 //        }
-        for (int i = 5; i >= 1; i--) {
-            System.out.println("WEEEEEEEEEEEEEE!" + i);
+//        for (int i = 5; i >= 1; i--) {
+//            System.out.println("WEEEEEEEEEEEEEE!" + i);
+//        }
+//
+//        int i = 1;
+//        while (i <= 5) {
+//            System.out.println("WWOOOOOOOOWWWWWW" + i);
+//            i++;
+//        }
+
+//        String input = "";
+//        while (!input.equals("quit")) {
+//            System.out.print("Enter Commands: ");
+//            input = scanner.next().toLowerCase();
+//            if (input.equals("pass")) {
+//                continue;
+//            }
+//            if (input.equals("quit")) {
+//                break;
+//            }
+//            System.out.println(input);
+//        }
+//
+//        do {
+//            System.out.print("Enter Commands For Second Loop: ");
+//            input = scanner.next().toLowerCase();
+//            System.out.println(input);
+//        } while (!input.equals("quit"));
+
+
+
+
+
+        // allocate and initialize
+        String[] fruits = {"apple", "bannana", "pinapple"};
+
+        // allocate
+        String[] dudes = new String[3];
+        // and initialize
+        dudes[0] = "chris";
+        dudes[1] = "ben";
+        dudes[2] = "kai";
+
+        for(int j = 0; j <= 2; j++) {
+            System.out.println(fruits[j]);
         }
 
-        int i = 1;
-        while (i <= 5) {
-            System.out.println("WWOOOOOOOOWWWWWW" + i);
-            i++;
+        // For Each loop! always go forward :)
+        // dont have access to each item
+        for(String fruit: fruits) {
+            System.out.println(fruit);
         }
-
-        String input = "";
-        while (!input.equals("quit")) {
-            System.out.print("Enter Commands: ");
-            input = scanner.next().toLowerCase();
-            if (input.equals("pass")) {
-                continue;
-            }
-            if (input.equals("quit")) {
-                break;
-            }
-            System.out.println(input);
-        }
-
-        do {
-            System.out.print("Enter Commands For Second Loop: ");
-            input = scanner.next().toLowerCase();
-            System.out.println(input);
-        } while (!input.equals("quit"));
-
-
-
-
-
-
-
-
-
 
 
 
