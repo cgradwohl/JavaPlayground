@@ -431,6 +431,15 @@ public class Main {
 
 
 
+        int[] things = new int[3];
+        things[0] = 2;
+        things[1] = 4;
+        things[2] = 8;
+
+        for(int i = 0; i < things.length; i++) {
+            System.out.println("YO: ");
+            System.out.println(things[i]);
+        }
 
 
 
