@@ -1,6 +1,8 @@
 // what package this class belongs to!
 package com.helloworld;
 
+import helloworld.MainReview;
+
 import java.awt.*;
 import java.text.NumberFormat;
 import java.util.Arrays;
@@ -10,6 +12,10 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
+        MainReview yoyo = new MainReview();
+
+        System.out.println("WADDUP");
+        System.out.println(yoyo.prop);
         // Primitive Types
         // ----------------
         // byte     1 byte
